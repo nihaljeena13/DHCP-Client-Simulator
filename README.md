@@ -8,10 +8,10 @@
 
 ----Different steps to collect virtual IP addresses using Dynamic Host Configuration Protocol-:
 
--->When you turn your PC on, if it doesn't have an address it looks for a DHCP server. It just broadcasts messsage to everyone in the network hoping somewhere in the network there is a DHCP server. All the other devices looks at the message and drops it. This is the first step called DHCP discover.
--->When the DHCP server looks at the client's messge it offers an IP address to the client. If more then one offer is given it will choose the first one it receives. This is the second step called DHCP offer.
-T-->he client then requests for an IP address that the DHCP server has offered. This is the third step called DHCP request.
--->The DHCP server will send the IP address along with the subnet mask, the default gateway and the DNS server.This is the fourth step called DHCP acknowledgment.
+-->When you turn your PC on, if it doesn't have an address it looks for a DHCP server. It just broadcasts messsage to everyone in the network hoping somewhere in the network there is a DHCP server. All the other devices looks at the message and drops it. This is the first step called "DHCP Discover".
+-->When the DHCP server looks at the client's messge it offers an IP address to the client. If more then one offer is given it will choose the first one it receives. This is the second step called "DHCP Offer".
+T-->he client then requests for an IP address that the DHCP server has offered. This is the third step called "DHCP Request".
+-->The DHCP server will send the IP address along with the subnet mask, the default gateway and the DNS server.This is the fourth step called "DHCP Acknowledgment".
 
 --The DHCP server keeps the record of all leased IP addresses that can be virtually assigned to different hosts. The server gives IP addresses to each clients with leased time . This will allow clients to renew its IP addresses. This is how our IP addresses is never wasted. Even when you are not using your computer your IP address is not being wasted. Pretty much evryone uses it evry single day without giving a second thought.
 
